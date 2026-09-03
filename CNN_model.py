@@ -6,7 +6,6 @@ from keras.layers.convolutional import Conv2D
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
-
 def CNN_model():
 # seed for reproducing same results
     seed = 42
