@@ -41,6 +41,7 @@ def find_contours(dimensions, img) :
             char_copy[:, 0:2] = 0
             char_copy[42:44, :] = 0
             char_copy[:, 22:24] = 0
+        
 
             img_res.append(char_copy) #List that stores the character's binary image (unsorted)
 
