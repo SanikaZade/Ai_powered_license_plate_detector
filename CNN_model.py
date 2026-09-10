@@ -67,4 +67,3 @@ def CNN_model():
     print(f"Accuracy: {acc}")
     
     return model_
-    
